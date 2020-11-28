@@ -21,6 +21,5 @@ routes.delete('/projects/:id', UserController.auth, ProjectController.delete, Pr
 
 routes.post('/users/login', UserController.login);
 routes.post('/users/auth', UserController.auth);
-routes.post('/users/create', UserController.create); // temporary
 
 export default routes;
